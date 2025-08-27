@@ -43,15 +43,15 @@
 
 /* Modern Clean Design Variables */
 :root {
-  --glass-bg: rgba(255, 255, 255, 0.8);
-  --glass-border: rgba(255, 255, 255, 0.3);
-  --primary-text: #2c3e50;
-  --secondary-text: #7f8c8d;
-  --accent-color: #FF6F61; /* Coral color */
-  --accent-hover: #E55A4D; /* Darker coral for hover */
-  --background: #ffffff;
-  --light-bg: #f8f9fa;
-  --shadow: 0 10px 40px rgba(0,0,0,0.1);
+  --glass-bg: rgba(216, 199, 181, 0.8);
+  --glass-border: rgba(216, 199, 181, 0.3);
+  --primary-text: #492D22;
+  --secondary-text: #6D5143;
+  --accent-color: #492D22; /* Dark brown color */
+  --accent-hover: #33201A; /* Darker brown for hover */
+  --background: #D8C7B5; /* Light beige background */
+  --light-bg: #E5D9CC; /* Lighter beige for sections */
+  --shadow: 0 10px 40px rgba(73, 45, 34, 0.1);
   --section-spacing: 60px;
   --border-radius: 16px;
   --max-width: 1200px;
@@ -372,13 +372,13 @@ body {
   font-size: 1rem;
   transition: all 0.3s ease;
   display: inline-block;
-  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 4px 15px rgba(73, 45, 34, 0.3);
 }
 
 .btn-primary:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+  box-shadow: 0 8px 25px rgba(73, 45, 34, 0.4);
   text-decoration: none;
   color: white;
 }
