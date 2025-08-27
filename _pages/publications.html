@@ -11,26 +11,25 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+<!-- Preprints Section -->
+<h2>Preprints</h2><hr />
+{% assign preprint_count = 0 %}
+{% for post in site.publications reversed %}
+  {% if post.category == "preprint" %}
     {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    {% assign preprint_count = preprint_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<!-- Published Publications Section -->
+<h2>Publications</h2><hr />
+{% assign publication_count = 0 %}
+{% for post in site.publications reversed %}
+  {% if post.category != "preprint" %}
+    {% include archive-single.html %}
+    {% assign publication_count = publication_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
 <!-- Ongoing Research Section -->
 <div style="margin-top: 3rem;">
@@ -52,22 +51,6 @@ author_profile: true
           <p>Your browser doesn't support video. <a href="/files/research_demo_1.mp4">Download the video</a> instead.</p>
         </video>
         <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem; font-style: italic;">Demo: Robot learning motion patterns from human demonstrations</p>
-      </div>
-    </div>
-    
-    <!-- Research Project 2 -->
-    <div class="research-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1.5rem; background: rgba(0,0,0,0.05); margin-bottom: 2rem;">
-      <h3>Neural Photon Field for Inverse Rendering</h3>
-      <p style="color: #666; margin: 0.5rem 0;"><strong>University of Pennsylvania • 2023-2024</strong></p>
-      <p>Advancing single-stage inverse rendering techniques using neural photon fields for improved material and lighting estimation in computer graphics.</p>
-      
-      <!-- Video placeholder - replace with your actual video -->
-      <div class="research-media" style="margin-top: 1rem;">
-        <video width="100%" height="auto" controls style="border-radius: 8px; max-width: 600px;">
-          <source src="/files/research_demo_2.mp4" type="video/mp4">
-          <p>Your browser doesn't support video. <a href="/files/research_demo_2.mp4">Download the video</a> instead.</p>
-        </video>
-        <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem; font-style: italic;">Demo: Neural photon field rendering results</p>
       </div>
     </div>
     
