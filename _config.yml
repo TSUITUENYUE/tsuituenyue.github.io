@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "TSUITUENYUE"
+title                    : "HOME"
 title_separator          : "-"
 name                     : &name "Tuen-Yue Tsui"
 description              : &description "personal description"

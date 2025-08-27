@@ -36,12 +36,18 @@ a {
   color: #D8C7B5; /* Light beige color for navigation text */
 
   &:hover {
-    color: $coral-color;
+    color: #D8C7B5;
+    opacity: 0.8;
   }
 
   &:before {
-    background: $coral-color !important;
+    background: #D8C7B5 !important;
   }
+}
+
+/* Ensure masthead background is the darker brown */
+.masthead {
+  background: #492D22 !important;
 }
 
 /* Override any other blue elements */
@@ -97,6 +103,15 @@ p, li, td, th, blockquote, figcaption, cite, .page__lead, .archive__item-excerpt
 .masthead__menu-item, .greedy-nav a {
   font-family: 'Playfair Display', Georgia, serif !important;
   font-weight: 500;
+}
+
+/* Style for navigation separators */
+.greedy-nav .separator {
+  color: #D8C7B5;
+  font-weight: 300;
+  margin: 0 0.5rem;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .author__name, .author__bio, .author__urls {
