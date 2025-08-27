@@ -122,3 +122,8 @@ p, li, td, th, blockquote, figcaption, cite, .page__lead, .archive__item-excerpt
 .author__name, .author__bio, .author__urls {
   font-family: 'Lora', Georgia, serif !important;
 }
+
+/* Hide the page title on homepage to avoid duplication */
+body[class*="home"] .page__title {
+  display: none;
+}
