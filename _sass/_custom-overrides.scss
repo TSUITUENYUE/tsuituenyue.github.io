@@ -33,6 +33,8 @@ a {
 
 /* Override masthead link colors */
 .greedy-nav a {
+  color: #D8C7B5; /* Light beige color for navigation text */
+
   &:hover {
     color: $coral-color;
   }
