@@ -151,7 +151,7 @@ body {
   padding: 1.5rem;
   background: var(--light-bg);
   border-radius: 12px;
-  border: 1px solid #e9ecef;
+  border: 1px solid #C4B5A2;
 }
 
 .highlight-icon {
@@ -206,7 +206,7 @@ body {
   text-align: center;
   color: var(--secondary-text);
   background: var(--light-bg);
-  border: 2px dashed #dee2e6;
+  border: 2px dashed #B3A28F;
   border-radius: var(--border-radius);
 }
 
@@ -303,11 +303,11 @@ body {
 
 /* Masthead Override for cleaner header */
 .masthead {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(216, 199, 181, 0.95);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(73, 45, 34, 0.1);
+  box-shadow: 0 2px 20px rgba(73, 45, 34, 0.05);
 }
 
 .masthead__inner-wrap {
@@ -435,7 +435,7 @@ body {
   margin: 0 auto 1.5rem;
   color: white;
   font-size: 2rem;
-  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 8px 25px rgba(73, 45, 34, 0.3);
 }
 
 .overview-card h3 {
@@ -489,14 +489,14 @@ body {
   padding: 2rem;
   background: var(--light-bg);
   border-radius: var(--border-radius);
-  border: 1px solid #e9ecef;
+  border: 1px solid #C4B5A2;
   position: relative;
   transition: all 0.3s ease;
 }
 
 .highlight-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 25px rgba(73, 45, 34, 0.1);
 }
 
 .highlight-badge {
