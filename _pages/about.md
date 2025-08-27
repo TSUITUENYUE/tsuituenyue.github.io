@@ -4,6 +4,7 @@ title: "About Me"
 author_profile: true
 redirect_from: 
   - /about.html
+  - /
 ---
 
 <div class="about-page">
@@ -48,7 +49,7 @@ redirect_from:
           </div>
         
         <!-- Photo Right Side -->
-        <div class="about-photo" style="flex: 1; display: flex; align-items: flex-start; justify-content: center; padding-top: 16rem;">
+        <div class="about-photo" style="flex: 1; display: flex; align-items: flex-start; justify-content: center; padding-top: 12rem;">
           <div class="photo-container glass-card">
             <img src="/images/me.jpg" alt="Tuen-Yue Tsui" class="profile-photo" style="width: 100%; height: auto; border-radius: 8px;">
           </div>
@@ -98,5 +99,6 @@ redirect_from:
       </div>
     </div>
     
+
   </div>
 </div>

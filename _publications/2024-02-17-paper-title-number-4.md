@@ -1,6 +1,6 @@
 ---
 title: "NePF: Neural Photon Field for Single-Stage Inverse Rendering"
-collection: preprint
+collection: publications
 category: preprint
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about fixing template issue #693.'
