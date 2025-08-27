@@ -11,7 +11,7 @@ redirect_from:
     
     <!-- Main About Section -->
     <div class="about-main glass-card">
-      <div class="about-content" style="display: flex; align-items: flex-start; gap: 2rem;">
+            <div class="about-content" style="display: flex; align-items: flex-start; gap: 2rem;">
         
         <!-- Text Content Left Side -->
         <div class="about-text" style="flex: 2;">
@@ -21,7 +21,7 @@ redirect_from:
           
           <p>Currently, I'm a Second Year Master Student in Robotics at Penn, advised by Prof. Lingjie Liu. I'm working on a project for robots to intuitively understand the motions from demonstrations without any labeled signal and carry them out in an adaptive way. </p>
 
-            <p> You may find some useful links below:</p>
+             <p> You may find some useful links below:</p>
             
             <!-- Links Section -->
             <div class="about-links" style="display: flex; gap: 1.5rem; margin-top: 1rem; flex-wrap: wrap;">
@@ -48,8 +48,8 @@ redirect_from:
           </div>
         
         <!-- Photo Right Side -->
-        <div class="about-photo" style="flex: 1;">
-          <div class="photo-container glass-card">
+        <div class="about-photo" style="flex: 1; display: flex; align-items: center; justify-content: center;">
+          <div class="photo-container glass-card" style="margin-top: 2rem;">
             <img src="/images/me.jpg" alt="Tuen-Yue Tsui" class="profile-photo" style="width: 100%; height: auto; border-radius: 8px;">
           </div>
         </div>
@@ -81,16 +81,17 @@ redirect_from:
       </div>
     </div>
     
-    <!-- Teaching Experience-->
-    <div class="teaching-experience glass-card">
-      <h3>Applied Machine Learning</h3>
-      <div class="teaching-timeline">
+    <!-- Teaching Experience -->
+    <div class="academic-background glass-card">
+      <h3>Teaching Experience</h3>
+      <div class="education-timeline">
         
-        <div class="teaching-item">
-          <div class="teaching-year">Fall 2025</div>
-          <div class="teaching-content">
-            <h4>Teaching Assistant</h4>
+        <div class="education-item">
+          <div class="education-year">Fall 2025</div>
+          <div class="education-content">
+            <h4>Teaching Assistant - Applied Machine Learning</h4>
             <p class="institution">University of Pennsylvania</p>
+            <p class="thesis">Assisting with graduate-level machine learning course</p>
           </div>
         </div>
         
