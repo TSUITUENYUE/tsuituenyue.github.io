@@ -20,7 +20,32 @@ redirect_from:
           <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of robotics, world models, and physics-aware vision/graphics. My work aims to build the human like congnitive system for highly autonomous intelligence in robotics.</p>
           
           <p>Currently, I'm a Second Year Master Student in Robotics at Penn, advised by Prof. Lingjie Liu. I'm working on a project for robots to intuitively understand the motions from demonstrations without any labeled signal and carry them out in an adaptive way. </p>
-        </div>
+
+            <p> You may find some useful links below:</p>
+            
+            <!-- Links Section -->
+            <div class="about-links" style="display: flex; gap: 1.5rem; margin-top: 1rem; flex-wrap: wrap;">
+              <a href="/files/cv.pdf" class="link-item" target="_blank" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.3s ease;">
+                <i class="fas fa-file-pdf" style="color: #e74c3c;"></i>
+                <span>CV</span>
+              </a>
+              
+              <a href="mailto:tytsui@seas.upenn.edu" class="link-item" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.3s ease;">
+                <i class="fas fa-envelope" style="color: #3498db;"></i>
+                <span>Email</span>
+              </a>
+              
+              <a href="https://github.com/tsuituenyue" class="link-item" target="_blank" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.3s ease;">
+                <i class="fab fa-github" style="color: #333;"></i>
+                <span>GitHub</span>
+              </a>
+              
+              <a href="https://hk.linkedin.com/in/tuen-yue-tsui-2a636115b" class="link-item" target="_blank" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.3s ease;">
+                <i class="fab fa-linkedin" style="color: #0077b5;"></i>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
         
         <!-- Photo Right Side -->
         <div class="about-photo" style="flex: 1;">
@@ -56,18 +81,16 @@ redirect_from:
       </div>
     </div>
     
-    <!-- Teaching Experience Section -->
+    <!-- Teaching Experience-->
     <div class="teaching-experience glass-card">
-      <h3>Teaching Experience</h3>
+      <h3>Applied Machine Learning</h3>
       <div class="teaching-timeline">
         
         <div class="teaching-item">
-          <div class="teaching-year">2023-2024</div>
+          <div class="teaching-year">Fall 2025</div>
           <div class="teaching-content">
             <h4>Teaching Assistant</h4>
-            <p class="institution">Wuhan University</p>
-            <p class="course">Computer Science Fundamentals</p>
-            <p class="description">Assisted in teaching fundamental computer science concepts to undergraduate students, including algorithm design and data structures.</p>
+            <p class="institution">University of Pennsylvania</p>
           </div>
         </div>
         
