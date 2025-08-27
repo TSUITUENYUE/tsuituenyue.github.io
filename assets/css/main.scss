@@ -39,6 +39,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+@import "custom-overrides";
 
 /* Modern Clean Design Variables */
 :root {
@@ -46,8 +47,8 @@
   --glass-border: rgba(255, 255, 255, 0.3);
   --primary-text: #2c3e50;
   --secondary-text: #7f8c8d;
-  --accent-color: #3498db;
-  --accent-hover: #2980b9;
+  --accent-color: #FF6F61; /* Coral color */
+  --accent-hover: #E55A4D; /* Darker coral for hover */
   --background: #ffffff;
   --light-bg: #f8f9fa;
   --shadow: 0 10px 40px rgba(0,0,0,0.1);
@@ -538,91 +539,91 @@ body {
   .homepage {
     padding: 0 15px;
   }
-  
+
   .hero-section {
     padding: 60px 0;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.1rem;
   }
-  
+
   .hero-description {
     font-size: 1.1rem;
   }
-  
+
   .hero-buttons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .overview-cards {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .overview-card {
     padding: 2rem;
   }
-  
+
   .highlights-section {
     padding: 2rem;
   }
-  
+
   .highlights-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .about-page {
     padding: 20px 15px;
   }
-  
+
   .about-main {
     padding: 40px 30px;
   }
-  
+
   .about-content {
     grid-template-columns: 1fr;
     gap: 3rem;
     text-align: left;
   }
-  
+
   .about-text h2 {
     font-size: 2rem;
     text-align: center;
   }
-  
+
   .highlights-grid {
     gap: 1rem;
   }
-  
+
   .highlight-item {
     padding: 1rem;
   }
-  
+
   .about-photo {
     justify-content: center;
   }
-  
+
   .photo-container {
     width: 250px;
     height: 300px;
   }
-  
+
   .academic-background {
     padding: 30px 20px;
   }
-  
+
   .education-item {
     flex-direction: column;
     gap: 1rem;
     padding: 1.5rem;
   }
-  
+
   .education-year {
     align-self: flex-start;
     min-width: auto;
@@ -633,20 +634,20 @@ body {
   .about-main {
     padding: 30px 20px;
   }
-  
+
   .about-text h2 {
     font-size: 1.8rem;
   }
-  
+
   .about-text p {
     font-size: 1rem;
   }
-  
+
   .highlight-item {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .highlight-icon {
     align-self: center;
   }
