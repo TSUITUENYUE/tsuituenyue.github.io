@@ -12,7 +12,7 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item separator">|</li>
+            {% unless forloop.first %}<li class="masthead__menu-item separator">|</li>{% endunless %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
