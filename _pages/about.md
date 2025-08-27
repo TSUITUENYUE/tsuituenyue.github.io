@@ -17,11 +17,9 @@ redirect_from:
         <div class="about-text">
           <h2>Tuen-Yue Tsui</h2>
           
-          <p>I am a passionate researcher and educator dedicated to advancing knowledge at the intersection of artificial intelligence, human-computer interaction, and computational social science. My work focuses on developing AI systems that are not only technically robust but also ethically grounded and socially beneficial.</p>
+          <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of robotics, generative models, and physics-aware vision/graphics. My work aims to build the human like congnitive system for highly autonomous intelligence in robotics.</p>
           
-          <p>With a Ph.D. in Computer Science and several years of research experience, I have published extensively in top-tier conferences and journals. My research spans multiple domains, from machine learning algorithms to their societal implications, always with an eye toward creating technology that serves humanity's best interests.</p>
-          
-          <p>Currently, I serve as an Assistant Professor in the Department of Computer Science, where I lead a research group focused on responsible AI development. I am also actively involved in several interdisciplinary collaborations that bridge computer science with psychology, sociology, and ethics.</p>
+          <p>Currently, I'm a Second Year Master Student in Robotics at Penn, advised by Prof. Lingjie Liu. I'm working on a project for robots to intuitively understand the motions from demonstrations without any labeled signal and carry them out in an adaptive way. </p>
           
           <!-- Research Highlights -->
           <div class="research-highlights">
@@ -78,30 +76,21 @@ redirect_from:
     <div class="academic-background glass-card">
       <h3>Academic Background</h3>
       <div class="education-timeline">
+        
         <div class="education-item">
-          <div class="education-year">2020</div>
+          <div class="education-year">2024-Present</div>
           <div class="education-content">
-            <h4>Ph.D. in Computer Science</h4>
-            <p class="institution">Your University</p>
-            <p class="thesis">Dissertation: "Ethical Considerations in Machine Learning Systems"</p>
+            <h4>M.S.E in Robotics</h4>
+            <p class="institution">University of Pennsylvania</p>
+            <p class="thesis">Focus: Intention-aware Imitation Learning</p>
           </div>
         </div>
         
         <div class="education-item">
-          <div class="education-year">2016</div>
+          <div class="education-year">2020-2024</div>
           <div class="education-content">
-            <h4>M.S. in Computer Science</h4>
-            <p class="institution">Your University</p>
-            <p class="thesis">Focus: Artificial Intelligence and Human-Computer Interaction</p>
-          </div>
-        </div>
-        
-        <div class="education-item">
-          <div class="education-year">2014</div>
-          <div class="education-content">
-            <h4>B.S. in Computer Science</h4>
-            <p class="institution">Your Undergraduate University</p>
-            <p class="thesis">Summa Cum Laude, Phi Beta Kappa</p>
+            <h4>B.E. in Computer Science</h4>
+            <p class="institution">Wuhan University</p>
           </div>
         </div>
       </div>
