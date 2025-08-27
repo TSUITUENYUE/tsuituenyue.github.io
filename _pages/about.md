@@ -48,8 +48,8 @@ redirect_from:
           </div>
         
         <!-- Photo Right Side -->
-        <div class="about-photo" style="flex: 1; display: flex; align-items: center; justify-content: center;">
-          <div class="photo-container glass-card" style="margin-top: 2rem;">
+        <div class="about-photo" style="flex: 1; display: flex; align-items: flex-end; justify-content: center;">
+          <div class="photo-container glass-card">
             <img src="/images/me.jpg" alt="Tuen-Yue Tsui" class="profile-photo" style="width: 100%; height: auto; border-radius: 8px;">
           </div>
         </div>
