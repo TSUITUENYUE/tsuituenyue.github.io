@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  background-color: #fff;
+  background-image: url('https://www.transparenttextures.com/patterns/marble.png');
+}
+
+.site-header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.site-nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
