@@ -15,7 +15,7 @@ redirect_from:
         
         <!-- Text Content Left Side -->
         <div class="about-text">
-          <h2>Welcome to my page!</h2>
+          <h2>Tuen-Yue Tsui</h2>
           
           <p>I am a passionate researcher and educator dedicated to advancing knowledge at the intersection of artificial intelligence, human-computer interaction, and computational social science. My work focuses on developing AI systems that are not only technically robust but also ethically grounded and socially beneficial.</p>
           
