@@ -75,26 +75,22 @@ body {
   box-shadow: var(--shadow);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: var(--section-spacing);
-  max-width: 800px; /* Make portfolio cards wider */
-  width: 100%;
-}
-
-/* Portfolio-specific glass card styling */
-.archive__item.glass-card {
-  max-width: 900px; /* Even wider for portfolio items */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Round corners for images in glass cards */
-.glass-card img {
-  border-radius: 12px;
-  transition: all 0.3s ease;
 }
 
 .glass-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+/* Portfolio specific styling for wider cards and rounded images */
+.archive__item.glass-card {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glass-card img {
+  border-radius: 12px;
 }
 
 /* About Page Specific Styles */
@@ -644,11 +640,7 @@ body {
     min-width: auto;
   }
 
-  /* Responsive portfolio cards */
-  .glass-card, .archive__item.glass-card {
-    max-width: 100%;
-    margin: 0 auto 2rem auto;
-  }
+
 }
 
 @media (max-width: 480px) {
