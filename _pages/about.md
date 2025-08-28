@@ -18,7 +18,7 @@ redirect_from:
         <div class="about-text" style="flex: 2;">
           <h2>Tuen-Yue Tsui</h2>
           
-          <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of robotics, world models, and physics-aware vision/graphics. I also enjoy study cognitive science and draw my inspirations from it. My research aims to build the human like congnitive system for highly autonomous intelligence in robotics.</p>
+          <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of robotics, world models, and physics-aware vision/graphics. I also enjoy learning cognitive science and draw my inspirations from it. My research aims to build the anthropoid congnitive system for highly autonomous intelligence in robotics.</p>
           
           <p>Currently, I am a second-year master’s student in Robotics at the University of Pennsylvania, advised by Prof. Lingjie Liu. I am working on a project to enable robots to infer and reproduce motions from unlabeled demonstrations and adapt them to new contexts. Previously, I was advised by Prof. Qin Zou at Wuhan University.</p>
 
