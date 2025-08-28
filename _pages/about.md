@@ -102,3 +102,23 @@ redirect_from:
 
   </div>
 </div>
+
+<style>
+  /* Responsive: stack photo above text and center links on small screens */
+  @media (max-width: 768px) {
+    .about-main .about-content {
+      flex-direction: column;
+    }
+    .about-main .about-photo {
+      order: -1; /* move photo above text */
+      padding-top: 0 !important;
+      margin-bottom: 1rem;
+    }
+    .about-main .about-text {
+      width: 100%;
+    }
+    .about-main .about-links {
+      justify-content: center;
+    }
+  }
+</style>
