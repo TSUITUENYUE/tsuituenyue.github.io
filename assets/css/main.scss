@@ -332,6 +332,12 @@ body {
   padding: 0 20px;
 }
 
+/* Override for publications page to allow full width */
+.page.archive {
+  max-width: none !important;
+  padding: 0 40px;
+}
+
 /* Masthead Override for cleaner header */
 .masthead {
   background: rgba(216, 199, 181, 0.95);

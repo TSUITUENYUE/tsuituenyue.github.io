@@ -8,5 +8,5 @@ venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2311.11555'
 citation: 'T.-Y Tsui, Q Zou. (2024). &quot;NePF: Neural Photon Field for Single-Stage Inverse Rendering.&quot; <i>arXiv</i>.'
 image: 'nepf.png'
-excerpt: 'Novel single-stage inverse rendering approach using neural photon fields for efficient scene reconstruction and material estimation.'
+
 ---
