@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item{% if post.collection == 'portfolio' %} glass-card{% endif %}" itemscope itemtype="http://schema.org/CreativeWork"{% if post.collection == 'portfolio' %} style="padding: 1rem 1.5rem 1.5rem 1.5rem; margin-top: 3rem; margin-bottom: 3rem; border-radius: 8px; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);"{% endif %}>
+  <article class="archive__item{% if post.collection == 'portfolio' %} glass-card{% endif %}" itemscope itemtype="http://schema.org/CreativeWork"{% if post.collection == 'portfolio' %} style="padding: 2rem 2.5rem 2.5rem 2.5rem; margin-top: 3rem; margin-bottom: 3rem;"{% endif %}>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
