@@ -113,6 +113,23 @@ body {
   border-radius: 12px;
 }
 
+/* Publication card wrapper to stabilize layout */
+.publication-card {
+  overflow: auto; /* clear floats */
+  width: 100%;
+}
+
+/* Remove list item padding/margins around archive items and center */
+.list__item {
+  list-style: none;
+}
+
+.list__item > .archive__item,
+.archive__item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* About Page Specific Styles */
 .about-page {
   max-width: var(--max-width);
@@ -336,6 +353,22 @@ body {
 .page.archive {
   max-width: none !important;
   padding: 0 40px;
+}
+
+/* Fix archive container width constraints */
+.archive {
+  @include breakpoint($large) {
+    @include span(12 of 12) !important;
+    @include prefix(0) !important;
+  }
+}
+
+/* Center projects in Portfolio page */
+.archive__item.glass-card {
+  max-width: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
 }
 
 /* Masthead Override for cleaner header */

@@ -35,10 +35,16 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    <div class="publication-card">
     
     {% if post.collection == 'publications' and post.image %}
       <div class="publication-image" style="margin: 1rem 0;">
         <img src="{{ post.image | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd;">
+      </div>
+    {% endif %}
+    {% if post.collection == 'publications' and post.image == nil %}
+      <div class="publication-image placeholder" style="margin: 1rem 0; width: 300px; height: 180px; background: rgba(0,0,0,0.05); border: 1px dashed #ccc; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 0.9rem;">
+        Image coming soon
       </div>
     {% endif %}
     
@@ -76,5 +82,6 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% endif %}
 
+    </div>
   </article>
 </div>
