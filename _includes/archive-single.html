@@ -26,27 +26,19 @@
       </div>
     {% endif %}
 
-    {% if post.collection == 'publications' and post.image %}
-      <div class="publication-image">
-        <img src="{{ post.image | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd;">
-      </div>
+    {% if post.collection == 'publications' %}
+      <div class="publication-card">
+        <div class="publication-text">
+          <h2 class="archive__item-title" itemprop="headline">
+            {% if post.link %}
+              <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+            {% elsif post.collection == 'portfolio' and post.github_url %}
+              <a href="{{ post.github_url }}" target="_blank">{{ title }}</a> <i class="fab fa-github" style="margin-left: 0.5rem; color: #333;"></i>
+            {% else %}
+              <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+            {% endif %}
+          </h2>
     {% endif %}
-    {% if post.collection == 'publications' and post.image == nil %}
-      <div class="publication-image placeholder" style="width: 300px; height: 180px; background: rgba(0,0,0,0.05); border: 1px dashed #ccc; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 0.9rem;">
-        Image coming soon
-      </div>
-    {% endif %}
-
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% elsif post.collection == 'portfolio' and post.github_url %}
-        <a href="{{ post.github_url }}" target="_blank">{{ title }}</a> <i class="fab fa-github" style="margin-left: 0.5rem; color: #333;"></i>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
-    <div class="publication-card">
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -68,20 +60,31 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation %}
-      <p>Citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% endif %}
+        {% if post.citation and post.paperurl and post.slidesurl %}
+          <p>Citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+        {% elsif post.citation and post.paperurl %}
+          <p>Citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+        {% elsif post.citation and post.slidesurl %}
+          <p>Citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+        {% elsif post.citation %}
+          <p>Citation: {{ post.citation }}</p>
+        {% elsif post.paperurl %}
+          <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+        {% elsif post.slidesurl %}
+          <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+        {% endif %}
 
+        </div>
+        {% if post.collection == 'publications' %}
+          <div class="publication-image">
+            {% if post.image %}
+              <img src="{{ post.image | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd;">
+            {% else %}
+              <div class="placeholder" style="width: 100%; aspect-ratio: 16/9; background: rgba(0,0,0,0.05); border: 1px dashed #ccc; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 0.9rem;">Image coming soon</div>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
     </div>
   </article>
 </div>

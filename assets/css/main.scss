@@ -105,10 +105,10 @@ body {
 /* Specific fix for publication images */
 
 .publication-image {
-  max-width: 320px;
-  width: 30%;
-  float: right;
-  margin: -0.25rem 0 0.5rem 1.25rem; /* raise image a bit, give more room for text */
+  width: 100%;
+  max-width: none;
+  float: none;
+  margin: 0;
 }
 
 .publication-image img {
@@ -117,8 +117,19 @@ body {
 
 /* Publication card wrapper to stabilize layout */
 .publication-card {
-  overflow: auto; /* clear floats */
+  display: grid;
+  grid-template-columns: 1fr 32%;
+  gap: 1rem;
+  align-items: start;
   width: 100%;
+}
+
+.publication-card .publication-text h2 {
+  margin: 0 0 0.25rem 0;
+}
+
+.publication-card .publication-text p {
+  margin: 0.25rem 0;
 }
 
 /* Tighter spacing within publication card */
@@ -146,11 +157,11 @@ body {
 
 /* Responsive: stack publication image on small screens */
 @media (max-width: 768px) {
+  .publication-card {
+    grid-template-columns: 1fr;
+  }
   .publication-image {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 0 1rem 0;
+    margin-top: 0.5rem;
   }
 }
 
