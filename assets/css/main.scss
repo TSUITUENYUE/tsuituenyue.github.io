@@ -85,12 +85,32 @@ body {
   border-radius: 12px;
 }
 
-/* Fix long citation text wrapping in publications */
+/* Fix preprint layout and text flow issues */
+.archive__item {
+  width: 100% !important;
+  max-width: none !important;
+  display: block;
+  overflow: visible;
+}
+
 .archive__item p {
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
   word-break: break-word;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Specific fix for publication images */
+.publication-image {
+  max-width: 300px;
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+.publication-image img {
+  border-radius: 12px;
 }
 
 /* About Page Specific Styles */
