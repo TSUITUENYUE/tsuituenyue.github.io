@@ -358,8 +358,8 @@ body {
 /* Fix archive container width constraints */
 .archive {
   @include breakpoint($large) {
-    @include span(12 of 12) !important;
-    @include prefix(0) !important;
+    @include span(12 of 12);
+    @include prefix(0);
   }
 }
 
