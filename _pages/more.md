@@ -19,22 +19,26 @@ author_profile: true
           <div class="education-year">Cooking</div>
           <div class="education-content">
             <h4>Culinary Adventures</h4>
-            <p class="institution">From molecular gastronomy to comfort food</p>
+            <p class="institution">From mediterranean to french</p>
             <p class="thesis">Exploring flavors, techniques, and presentation in home cooking</p>
             
             <!-- Image gallery for cooking -->
             <div class="interest-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
               <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
-                <img src="/images/cooking1.jpg" alt="Cooking Creation 1" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
-                <p style="font-size: 0.9em; text-align: center; margin: 0;">Signature Dish</p>
+                <img src="/images/akashula.png" alt="shakshuka" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.9em; text-align: center; margin: 0;">Shakshuka</p>
               </div>
               <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
-                <img src="/images/cooking2.jpg" alt="Cooking Creation 2" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
-                <p style="font-size: 0.9em; text-align: center; margin: 0;">Homemade Pasta</p>
+                <img src="/images/lobster.jpg" alt="lobster" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.9em; text-align: center; margin: 0;">Lobster Bisque</p>
               </div>
               <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
-                <img src="/images/cooking3.jpg" alt="Cooking Creation 3" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
-                <p style="font-size: 0.9em; text-align: center; margin: 0;">Weekend Project</p>
+                <img src="/images/scallop.png" alt="Cooking Creation 3" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.9em; text-align: center; margin: 0;">Noix de Saint-Jacques poelees, sauce beurre blanc</p>
+              </div>
+                 <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
+                <img src="/images/provence.png" alt="Ratatouille" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.9em; text-align: center; margin: 0;">Ratatouille</p>
               </div>
             </div>
           </div>
@@ -51,11 +55,11 @@ author_profile: true
             <!-- Image gallery for cocktails -->
             <div class="interest-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
               <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
-                <img src="/images/cocktail1.jpg" alt="Craft Cocktail 1" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
+                <img src="/images/dryheartini.png" alt="Craft Cocktail 1" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
                 <p style="font-size: 0.9em; text-align: center; margin: 0;">Classic Reimagined</p>
               </div>
               <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
-                <img src="/images/cocktail2.jpg" alt="Craft Cocktail 2" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
+                <img src="/images/pastnotcontern.png" alt="pastnotconvern" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem;">
                 <p style="font-size: 0.9em; text-align: center; margin: 0;">Signature Creation</p>
               </div>
               <div class="gallery-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.05);">
