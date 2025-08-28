@@ -26,7 +26,7 @@ redirect_from:
             
             <!-- Links Section -->
             <div class="about-links" style="display: flex; gap: 1.5rem; margin-top: 1rem; flex-wrap: wrap;">
-              <a href="/files/cv.pdf" class="link-item" target="_blank" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.3s ease;">
+              <a href="{{ '/files/CV.pdf' | relative_url }}" class="link-item" target="_blank" style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.3s ease;">
                 <i class="fas fa-file-pdf" style="color: #e74c3c;"></i>
                 <span>CV</span>
               </a>
