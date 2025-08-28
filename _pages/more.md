@@ -10,13 +10,13 @@ author_profile: true
     
     <!-- Background Intro (no card) -->
     <section class="more-intro">
-      <h3>Personal Interests</h3>
+      <h2>Personal Interests</h2>
       <p>Beyond research, I'm passionate about culinary arts and mixology — creativity and precision in both the kitchen and behind the bar.</p>
     </section>
 
     <!-- Cooking: Horizontal Scroll Card -->
     <section class="glass-card scroll-section">
-      <h3>Cooking</h3>
+      <h2>Cooking</h2>
       <div class="hscroll">
         <figure class="hcard">
           <img src="/images/akashula.png" alt="Shakshuka">
@@ -39,7 +39,7 @@ author_profile: true
 
     <!-- Bartending: Horizontal Scroll Card -->
     <section class="glass-card scroll-section">
-      <h3>Bartending</h3>
+      <h2>Bartending</h2>
       <div class="hscroll">
         <figure class="hcard">
           <img src="/images/dryheartini.png" alt="Dry Heartini">
