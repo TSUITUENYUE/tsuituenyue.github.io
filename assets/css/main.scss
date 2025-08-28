@@ -104,9 +104,10 @@ body {
 
 /* Specific fix for publication images */
 .publication-image {
-  max-width: 300px;
+  max-width: 360px;
+  width: 33%;
   float: right;
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 0.75rem 1.5rem;
 }
 
 .publication-image img {
@@ -128,6 +129,23 @@ body {
 .archive__item {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Center portfolio glass cards and remove sidebar padding offset */
+.archive .list__item {
+  padding-right: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive: stack publication image on small screens */
+@media (max-width: 768px) {
+  .publication-image {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+  }
 }
 
 /* About Page Specific Styles */
