@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+excerpt: "Robotics researcher at UPenn working on intention-aware imitation learning and vision/graphics."
 author_profile: true
 redirect_from: 
   - /about/
