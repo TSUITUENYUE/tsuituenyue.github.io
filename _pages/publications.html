@@ -43,14 +43,30 @@ author_profile: false
       <!-- Video placeholder - replace with your actual video -->
       <div class="research-media" style="margin-top: 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
         <video width="100%" height="auto" controls style="border-radius: 8px;">
-          <source src="/files/pred.mp4" type="video/mp4">
+          <source src="/files/gt.mp4" type="video/mp4">
           <p>Your browser doesn't support video. <a href="/files/gt.mp4">Download the video</a> instead.</p>
         </video>
         <video width="100%" height="auto" controls style="border-radius: 8px;">
-          <source src="/files/gt.mp4" type="video/mp4">
+          <source src="/files/pred.mp4" type="video/mp4">
           <p>Your browser doesn't support video. <a href="/files/pred.mp4">Download the video</a> instead.</p>
         </video>
-        <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem; font-style: italic;">Demo: Robot learning hitting the ball with left leg from the demo (left). The left one is the input demonstration, and the right one is the policy executed the intention learned from the demo.</p>
+        <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem; font-style: italic;">Imitation Demo: Robot learning hitting the ball with left leg from the demo (left). The left one is the input demonstration, and the right one is the policy executed the intention learned from the demo.</p>
+      </div>
+      <div class="research-media" style="margin-top: 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+        <div class="video-slot" style="display: flex; flex-direction: column; gap: 0.5rem;">
+          <video width="100%" height="auto" controls style="border-radius: 8px;">
+            <source src="/files/drib.mp4" type="video/mp4">
+            <p>Your browser doesn't support video. <a href="/files/drib.mp4">Download the video</a> instead.</p>
+          </video>
+          <p style="font-size: 0.9em; color: #666; margin: 0; font-style: italic;">Planning Manipulation: Trying to dribble (Still have room for improvements).</p>
+        </div>
+        <div class="video-slot" style="display: flex; flex-direction: column; gap: 0.5rem;">
+          <video width="100%" height="auto" controls style="border-radius: 8px;">
+            <source src="/files/rot.mp4" type="video/mp4">
+            <p>Your browser doesn't support video. <a href="/files/rot.mp4">Download the video</a> instead.</p>
+          </video>
+          <p style="font-size: 0.9em; color: #666; margin: 0; font-style: italic;">Planning Manipulation: Rotating the ball with legs.</p>
+        </div>
       </div>
     </div>
     
