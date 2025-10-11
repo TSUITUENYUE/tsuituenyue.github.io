@@ -50,8 +50,8 @@ author_profile: true
           <figcaption>"The Past is Not My Concern"</figcaption>
         </figure>
         <figure class="hcard">
-          <img src="/images/cocktail3.jpg" alt="Experimental Mix">
-          <figcaption>Experimental Mix</figcaption>
+          <img src="/images/drymart.jpg" alt="Experimental Mix">
+          <figcaption>Dry Martini</figcaption>
         </figure>
       </div>
     </section>
