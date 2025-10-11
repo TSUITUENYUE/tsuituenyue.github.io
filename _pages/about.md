@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Robotics researcher at UPenn working on intention-aware imitation learning and vision/graphics."
+excerpt: "Robotics researcher at Penn."
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,9 +19,9 @@ redirect_from:
         <div class="about-text" style="flex: 2;">
           <h2>Tuen-Yue Tsui</h2>
           
-          <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of robotics, world models, and physics-aware vision/graphics. I also enjoy learning cognitive science and draw my inspirations from it. My research aims to build the anthropoid congnitive system for highly autonomous intelligence in robotics.</p>
+          <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of cognitive science and robotics. My research aims to build the human-like congnitive system for highly autonomous intelligence in robotics. I also enjoy reading <a href="https://en.wikipedia.org/wiki/Immanuel_Kant" target="_blank" rel="noopener"> Kant</a> for inspirations in my research.</p>
           
-          <p>Currently, I am a second-year master’s student in Robotics at the University of Pennsylvania, advised by Prof. Lingjie Liu. I am working on a project to enable robots to infer and reproduce motions from unlabeled demonstrations and adapt them to new contexts. Previously, I was advised by Prof. Qin Zou at Wuhan University.</p>
+          <p>Currently, I am a second-year master’s student in Robotics at the University of Pennsylvania, advised by <a href="https://lingjie0206.github.io/" target="_blank" rel="noopener">Prof. Lingjie Liu</a>. My current research focus on a new representation of actions as causal effect events to enable one shot imitation learning and scalable manipulation. Previously, I was advised by <a href="https://sites.google.com/site/qinzoucn/" target="_blank" rel="noopener">Prof. Qin Zou</a>.at Wuhan University.</p>
 
              <p> You may find some useful links below:</p>
             
