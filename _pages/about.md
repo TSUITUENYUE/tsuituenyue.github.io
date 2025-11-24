@@ -21,7 +21,7 @@ redirect_from:
           
           <p>I am a passionate researcher dedicated to advancing knowledge at the intersection of cognitive science and robotics. My research aims to build the human-like congnitive system for highly autonomous intelligence in robotics. I also enjoy reading <a href="https://en.wikipedia.org/wiki/Immanuel_Kant" target="_blank" rel="noopener"> Kant</a> for inspirations in my research.</p>
           
-          <p>Currently, I am a second-year master’s student in Robotics at the University of Pennsylvania, advised by <a href="https://lingjie0206.github.io/" target="_blank" rel="noopener">Prof. Lingjie Liu</a>. My current research focus on a new representation of actions as causal effect events to enable one shot imitation learning and scalable manipulation. Previously, I was advised by <a href="https://sites.google.com/site/qinzoucn/" target="_blank" rel="noopener">Prof. Qin Zou</a>.at Wuhan University.</p>
+          <p>Currently, I am a second-year master’s student in Robotics at the University of Pennsylvania, advised by <a href="https://lingjie0206.github.io/" target="_blank" rel="noopener">Prof. Lingjie Liu</a>. My current research focus on perpetual learning, where an embodied agent never converges to a fixed scalar objective but instead follows a coupled non-equilibrium flow on a statistical manifold. Previously, I was advised by <a href="https://sites.google.com/site/qinzoucn/" target="_blank" rel="noopener">Prof. Qin Zou</a>.at Wuhan University.</p>
 
              <p> You may find some useful links below:</p>
             
