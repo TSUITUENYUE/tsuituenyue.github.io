@@ -38,7 +38,23 @@ author_profile: false
     <div class="research-item" style="border: 1px solid rgba(0,0,0,0.2); border-radius: 8px; padding: 1.5rem; background: rgba(0,0,0,0.05); margin-bottom: 2rem;">
       <h3>Let Learning Circulate</h3>
       <p style="color: #666; margin: 0.5rem 0;"><strong>University of Pennsylvania • 2024-Present</strong> <span style="color: #e74c3c; font-weight: bold;">• Ongoing</span> <span style="color: #999; font-size: 0.9em;">(Last updated: 2026-01-05)</span></p>
-      <p>Continual Learning as a Metriplectic Geometric Flow. The evaluation benchmark is a non stationary non iid data stream without task ids or boundaries.</p>
+      <p>Real-world learning happens in time-ordered, non-IID data streams without
+        task boundaries. Yet purely gradient descent is structurally mismatched to this
+        regime: with persistent change and finite capacity, it fixes an early local geome-
+        try that constrains later updates, so adaptation proceeds mainly by overwriting
+        formed structure. Rather than adding auxiliary mechanisms to mitigate this
+        issue, we argue that continual learning should be treated as the general learn-
+        ing regime, with empirical risk minimization only as a stationary limit. Based
+        on this view, we propose a coupled learning dynamics that avoids geometric
+        lock-in by introducing an online EMA K-FAC metric that carries persistent
+        information and induces conceptors. These conceptors shape the metric to keep
+        reusable directions accessible while damping drift, while a circulation that con-
+        serves unused-capacity of the conceptors drives continuous reallocation toward
+        reuse under change. Under true streaming protocols with no task boundaries,
+        methods without external replay largely break down, whereas our approach can
+        learn effectively. This work offers a new perspective that treats continual learn-
+        ing as the general learning regime and provides a learning dynamic aligned with
+        that regime.</p>
       
       <!-- Main PDF Display -->
       <div class="research-media" style="margin-top: 1rem;">
